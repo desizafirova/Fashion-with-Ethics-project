@@ -1,0 +1,358 @@
+html {
+  font-size: 62.5%;
+  /* overflow-x: hidden; */
+}
+
+body {
+  max-width: 144rem;
+  background-color: #252524;
+}
+
+.container {
+  margin: 0 auto;
+}
+/* ******************* */
+/*     HEADER          */
+/* ****************** */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 13rem;
+  padding-right: 13rem;
+  padding-top: 6rem;
+  padding-bottom: 5rem;
+}
+
+.icons-search-bag {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-icon {
+  height: 1.8rem;
+  width: 2.8rem;
+}
+
+.search-icon {
+  width: 1.7rem;
+  height: 1.7rem;
+}
+
+.shopping-bag-icon {
+  height: 2.1rem;
+  width: 2.1rem;
+}
+
+/* ******************* */
+/*     HERO SECTION    */
+/* ****************** */
+
+.hero-section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: start;
+  /* display: flex;
+  align-items: center;
+  justify-content: space-between; */
+  position: relative;
+}
+.heading-primary-fl {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-100%);
+  /* opacity: 0; */
+  font-size: 19.2rem;
+  letter-spacing: -4px;
+  line-height: 16.8rem;
+  color: rgb(208, 241, 23);
+  font-weight: 400;
+  font-family: 'Dela Gothic One';
+  /* border: 3px solid #d0f117; */
+}
+.heading-primary-sl {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  /* opacity: 0; */
+  font-size: 19.2rem;
+  letter-spacing: -4px;
+  line-height: 16.8rem;
+  color: #d0f117;
+  font-weight: 400;
+  font-family: 'Dela Gothic One';
+  /* border: 3px solid #d0f117; */
+}
+
+.hero-img-box {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+}
+
+.hero-img {
+  height: 60.2rem;
+  width: 43.1rem;
+  filter: grayscale(1);
+  z-index: -1;
+}
+
+.hero-text-box {
+  align-self: center;
+  transform: translateY(75%);
+  margin-left: 8rem;
+  margin-right: 4rem;
+}
+
+.hero-paragraph {
+  font-size: 1.6rem;
+  line-height: 1.9rem;
+  color: #d4cec4;
+  font-weight: 400;
+  font-style: italic;
+  font-family: 'Chivo';
+}
+.shop-now-btn {
+  display: grid;
+  text-decoration: none;
+  padding: 0.8rem 1.6rem;
+  color: black;
+  text-transform: uppercase;
+  align-items: center;
+  justify-items: center;
+  width: 124px;
+  height: 39px;
+  border-radius: 20px;
+  background-color: #d0f117;
+  margin-top: 1.6rem;
+  font-weight: bold;
+}
+
+.number-box {
+  position: relative;
+  justify-self: end;
+}
+
+.flower-icon {
+  width: 14.2rem;
+  height: 14.2rem;
+}
+
+.number {
+  font-size: 29px;
+  line-height: 31px;
+  color: #d4cec4;
+  font-weight: 400;
+  font-family: 'Dela Gothic One';
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
+
+/* ******************* */
+/*       SLOGAN       */
+/* ****************** */
+
+.slogan-section {
+  background-color: #d0f117;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+  padding-top: 31.3rem;
+  padding-bottom: 30.1rem;
+  position: relative;
+  overflow-x: hidden;
+}
+
+.crosses-box {
+  position: absolute;
+  display: flex;
+  gap: 2px;
+  top: 10rem;
+  left: 13.1rem;
+}
+
+.cross {
+  width: 3.8rem;
+  height: 3.8rem;
+}
+
+.heading-secondary {
+  font-size: 7.9rem;
+  letter-spacing: -2px;
+  line-height: 7.7rem;
+  color: #252524;
+  font-weight: 400;
+  font-family: 'Dela Gothic One';
+  text-align: center;
+}
+
+.slogan-p {
+  width: 70.3rem;
+  height: 5.9rem;
+  font-size: 1.6rem;
+  color: #1e1e1e;
+  font-weight: 400;
+  font-style: italic;
+  font-family: 'Chivo';
+  text-align: center;
+}
+
+.stroke-left {
+  position: absolute;
+  left: -12rem;
+  bottom: 10rem;
+}
+.stroke-right {
+  position: absolute;
+  right: -12rem;
+  top: 10rem;
+}
+
+/* ******************* */
+/* PRODUCTS SECTION   */
+/* ****************** */
+
+.products-section {
+  padding: 11.5rem;
+}
+
+.heading-box {
+  display: flex;
+  gap: 2.5rem;
+}
+
+.heading-secondary-green {
+  font-size: 192px;
+  letter-spacing: -4px;
+  line-height: 130px;
+  color: #d0f117;
+  font-weight: 400;
+  font-family: 'Dela Gothic One';
+}
+
+.bordered {
+  color: #252524;
+  font-size: 192px;
+  letter-spacing: -4px;
+  line-height: 130px;
+  color: #d0f117;
+  font-weight: 400;
+  font-family: 'Dela Gothic One';
+  -webkit-text-fill-color: #252524;
+  -webkit-text-stroke: 3px #d0f117;
+}
+
+.container-products {
+  padding-top: 11rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 17rem;
+}
+
+.first-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8rem;
+}
+
+.second-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8rem;
+}
+.end {
+  padding-top: 15rem;
+}
+
+.product-img {
+  height: 60.2rem;
+  width: 43.1rem;
+}
+
+.product-name-price {
+  display: flex;
+  flex-direction: column;
+}
+
+.pr-name {
+  font-size: 2.9rem;
+  line-height: 3.1rem;
+  color: #d4cec4;
+  font-weight: 400;
+  font-family: 'Dela Gothic One';
+  text-transform: uppercase;
+}
+
+.pr-price {
+  font-size: 1.6rem;
+  line-height: 3.1rem;
+  color: #d4cec4;
+  font-weight: 400;
+  font-family: 'Chivo';
+}
+
+.btn-add-to-card {
+  text-decoration: none;
+  width: 12.4rem;
+  height: 3.9rem;
+  border-radius: 20px;
+  background-color: #252524;
+  border: 3px solid #d0f117;
+  font-size: 1.3rem;
+  color: #d0f117;
+  font-weight: 700;
+  font-family: 'Chivo';
+  text-align: center;
+  text-transform: uppercase;
+  padding: 1.1rem 1.3rem 0.8rem 1.3rem;
+}
+
+.pr-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.b-w {
+  filter: grayscale(1);
+}
+
+.arr {
+  display: flex;
+  justify-content: center;
+  margin: 7.5rem auto 2rem auto;
+}
+
+.view-more {
+  text-transform: capitalize;
+  font-size: 1.6rem;
+  line-height: 1.9rem;
+  color: #d4cec4;
+  font-weight: 400;
+  font-style: italic;
+  font-family: 'Chivo';
+  text-align: center;
+}
+
+/* ******************* */
+/*TESTIMONIALS SECTION*/
+/* ****************** */
+
+.heading-testimonials {
+  font-size: 7.9rem;
+  letter-spacing: -2px;
+  line-height: 7.7rem;
+  color: #252524;
+  font-weight: 400;
+  font-family: 'Dela Gothic One';
+  -webkit-text-fill-color: #252524;
+  -webkit-text-stroke: 3px #d0f117;
+  padding-left: 8rem;
+}
