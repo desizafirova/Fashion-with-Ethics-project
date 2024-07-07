@@ -53,36 +53,29 @@ body {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   align-items: start;
-  /* display: flex;
-  align-items: center;
-  justify-content: space-between; */
   position: relative;
 }
 .heading-primary-fl {
   position: absolute;
   top: 50%;
   transform: translateY(-100%);
-  /* opacity: 0; */
   font-size: 19.2rem;
   letter-spacing: -4px;
   line-height: 16.8rem;
   color: rgb(208, 241, 23);
   font-weight: 400;
   font-family: 'Dela Gothic One';
-  /* border: 3px solid #d0f117; */
 }
 .heading-primary-sl {
   position: absolute;
   right: 0;
   top: 50%;
-  /* opacity: 0; */
   font-size: 19.2rem;
   letter-spacing: -4px;
   line-height: 16.8rem;
   color: #d0f117;
   font-weight: 400;
   font-family: 'Dela Gothic One';
-  /* border: 3px solid #d0f117; */
 }
 
 .hero-img-box {
@@ -220,8 +213,17 @@ body {
 
 .products-section {
   padding: 11.5rem;
+  position: relative;
+  overflow: hidden;
 }
 
+.flower-right-b {
+  position: absolute;
+  width: 34.3rem;
+  height: 34.1rem;
+  bottom: -18.3rem;
+  right: -10.4rem;
+}
 .heading-box {
   display: flex;
   gap: 2.5rem;
@@ -355,4 +357,170 @@ body {
   -webkit-text-fill-color: #252524;
   -webkit-text-stroke: 3px #d0f117;
   padding-left: 8rem;
+  overflow: hidden;
+  position: relative;
+}
+
+.flowers-rel {
+  position: relative;
+  overflow-x: hidden;
+}
+
+.flower-leftt {
+  position: absolute;
+  width: 18.5rem;
+  height: 18.4rem;
+  left: -9rem;
+  bottom: 8rem;
+}
+
+.flower-right {
+  position: absolute;
+  width: 34.3rem;
+  height: 34.1rem;
+  right: -11rem;
+  top: -20rem;
+}
+
+.grid-testimonials {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 9rem;
+  /* column-gap: 15rem; */
+  margin-top: 9rem;
+  justify-items: center;
+  margin-bottom: 19rem;
+}
+
+.test-text {
+  width: 47rem;
+  height: 5.8rem;
+  font-size: 1.6rem;
+  color: #d4cec4;
+  font-weight: 400;
+  font-style: italic;
+  font-family: 'Chivo';
+}
+
+.name {
+  font-size: 2.9rem;
+  line-height: 3.1rem;
+  color: #d4cec4;
+  font-weight: 400;
+  font-family: 'Dela Gothic One';
+  margin-top: 2rem;
+  text-transform: uppercase;
+}
+
+/* ******************* */
+/* CATEGORIES SECTION */
+/* ****************** */
+
+.categories-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.category-card {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.info {
+  position: absolute;
+
+  padding: 0 2rem;
+  text-align: center;
+  bottom: 4rem;
+}
+
+.cat-img {
+  width: 50vw;
+  height: 58rem;
+  z-index: -2;
+}
+.b-w-img {
+  filter: grayscale(1);
+  z-index: -2;
+  height: 58rem;
+  width: 50vw;
+}
+
+.category {
+  font-size: 2.9rem;
+  line-height: 3.1rem;
+  color: #d0f117;
+  font-weight: 400;
+  font-family: 'Dela Gothic One';
+  text-align: center;
+  z-index: 2;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+}
+
+.text-cat {
+  font-size: 1.6rem;
+  line-height: 1.9rem;
+  color: #d0f117;
+  font-weight: 400;
+  font-style: italic;
+  font-family: 'Chivo';
+  text-align: center;
+  z-index: 2;
+  margin-bottom: 2rem;
+}
+
+.category-card .shop-now-btn {
+  margin: 0 auto;
+}
+
+/* ******************* */
+/*  DESIGNERS SECTION  */
+/* ****************** */
+
+.designers-section {
+  margin-top: 13rem;
+  display: flex;
+  flex-direction: column;
+}
+.designers {
+  font-size: 19.2rem;
+  letter-spacing: -4px;
+  line-height: 13rem;
+  -webkit-text-fill-color: #252524;
+  -webkit-text-stroke: 3px #d0f117;
+  font-weight: 400;
+  font-family: 'Dela Gothic One';
+  text-align: center;
+  margin-bottom: 13rem;
+}
+
+.designers-names {
+  font-size: 2.9rem;
+  line-height: 3.1rem;
+  text-transform: uppercase;
+  color: #d4cec4;
+  font-weight: 400;
+  font-family: 'Dela Gothic One';
+  text-align: center;
+  margin-bottom: 7rem;
+}
+
+.our-team-btn {
+  display: flex;
+  text-decoration: none;
+  padding: 0.8rem 1.6rem;
+  color: #d0f117;
+  text-transform: uppercase;
+  align-items: center;
+  justify-content: center;
+  width: 12.4rem;
+  height: 3.9rem;
+  border-radius: 2rem;
+  border: 3px solid #d0f117;
+  background-color: #252524;
+  font-weight: bold;
+  margin: 0 auto;
+  margin-bottom: 12rem;
 }
