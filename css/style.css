@@ -7,6 +7,7 @@ body {
   max-width: 144rem;
   background-color: #252524;
   overflow-x: hidden;
+  margin: 0 auto;
 }
 
 .container {
@@ -56,6 +57,7 @@ body {
   align-items: start;
   position: relative;
 }
+
 .heading-primary-fl {
   position: absolute;
   top: 50%;
@@ -63,7 +65,7 @@ body {
   font-size: 19.2rem;
   letter-spacing: -4px;
   line-height: 16.8rem;
-  color: rgb(208, 241, 23);
+  color: #d0f117;
   font-weight: 400;
   font-family: 'Dela Gothic One';
 }
@@ -115,8 +117,8 @@ body {
   text-transform: uppercase;
   align-items: center;
   justify-items: center;
-  width: 124px;
-  height: 39px;
+  width: 12.4rem;
+  height: 3.9rem;
   border-radius: 20px;
   background-color: #d0f117;
   margin-top: 1.6rem;
@@ -231,9 +233,9 @@ body {
 }
 
 .heading-secondary-green {
-  font-size: 192px;
+  font-size: 19.2rem;
   letter-spacing: -4px;
-  line-height: 130px;
+  line-height: 13rem;
   color: #d0f117;
   font-weight: 400;
   font-family: 'Dela Gothic One';
@@ -241,9 +243,9 @@ body {
 
 .bordered {
   color: #252524;
-  font-size: 192px;
+  font-size: 19.2rem;
   letter-spacing: -4px;
-  line-height: 130px;
+  line-height: 13rem;
   color: #d0f117;
   font-weight: 400;
   font-family: 'Dela Gothic One';
@@ -275,8 +277,8 @@ body {
 }
 
 .product-img {
-  height: 60.2rem;
-  width: 43.1rem;
+  max-height: 60.2rem;
+  max-width: 43.1rem;
 }
 
 .product-name-price {
@@ -358,6 +360,7 @@ body {
   -webkit-text-fill-color: #252524;
   -webkit-text-stroke: 3px #d0f117;
   padding-left: 8rem;
+  padding-bottom: 2rem;
   overflow: hidden;
   position: relative;
 }
@@ -437,7 +440,7 @@ body {
 }
 
 .cat-img {
-  width: 50vw;
+  max-width: 50vw;
   height: 58rem;
   z-index: -2;
 }
@@ -445,7 +448,7 @@ body {
   filter: grayscale(1);
   z-index: -2;
   height: 58rem;
-  width: 50vw;
+  max-width: 50vw;
 }
 
 .category {
@@ -566,8 +569,8 @@ body {
 }
 
 .input-field-email {
-  width: 450px;
-  height: 72px;
+  width: 45rem;
+  height: 7.2rem;
   background-color: #d0f117;
   border: 3px solid #1e1e1e;
 }
@@ -618,7 +621,7 @@ body {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: 1.7fr 0.3fr;
-  column-gap: 2rem;
+  column-gap: 4rem;
   row-gap: 6rem;
   padding: 10rem;
 }
@@ -634,6 +637,7 @@ body {
   color: #d0f117;
   font-weight: 400;
   font-family: 'Dela Gothic One';
+  text-transform: uppercase;
 }
 .footer-link {
   text-decoration: none;
